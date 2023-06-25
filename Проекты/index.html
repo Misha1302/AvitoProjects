@@ -1,0 +1,270 @@
+<!-- thanks https://www.rammaheshwari.com/ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Проекты</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <span class="header__logo-sub">Михаил Разаков</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="https://www.avito.ru/moskva/predlozheniya_uslug/repetitor_po_programmirovaniyu_c_unity_2511127662" class="header__link"> Avito </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="https://vk.com/misha13022008" class="header__link"> VK </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="https://t.me/Micodiy" class="header__link"> Telegram </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="https://wa.me/79056115365" class="header__link"> WhatsApp </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="" class="header__link"> +79056115365 </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Проекты </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Привет, меня зовут михаил</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Я могу помочь Вам освоить unity и c#, чтобы писать классные игры и приложения
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Проекты</a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Немного обо мне</span>
+          <span class="heading-sec__sub">
+            Я начал программировать с 11 лет и уже с 12 начал вести свои уроки по программированию.
+            <br>
+            Мой опыт в обучении ребят, студентов и взрослых программированию составляет уже 3 года.
+            <br>
+            За это время я успел выработать свой стиль обучения и методику предподавания материала.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-skills">
+            <h3 class="about__content-title" align="center">Технологии, которые я использую для разработки</h3>
+            <div class="skills">
+              <div class="skills__skill">C#</div>
+              <div class="skills__skill">Unity</div>
+              <div class="skills__skill">PlayerIO</div>
+              <div class="skills__skill">Web sockets</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">Git</div>
+              <div class="skills__skill">C++</div>
+              <div class="skills__skill">C</div>
+              <div class="skills__skill">Rider</div>
+              <div class="skills__skill">Visual Studio</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Проекты</span>
+          <span class="heading-sec__sub">
+            Тут представлен список моих проектов, которые я считаю наиболее проработанными
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/images/1.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Зомби-стрелялка</h3>
+              <p class="projects__row-content-desc">
+                Зомби-стрелялка. Вы играете за жильца деревни. Ночь. У Вас есть фонарик, но он постепенно угасает.
+                Игроку нужно искать батарейки и патроны, чтобы не умереть.
+                В домах и неожиданных местах прячутся зомби, которые вылазят из-за препятствий,
+                  когда посчитают игрока наиболее уязвимым.
+              </p>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/images/2.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Railway-shooter</h3>
+              <p class="projects__row-content-desc">
+                Railway-shooter. Космический корабль летит по заранее заданной троектории и
+                уничтожает противников, стреляя из своих орудий и уклоняясь от препятствий
+              </p>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/images/3.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Tower-defence</h3>
+              <p class="projects__row-content-desc">
+                Защита башни. Роботы атакуют вас с синей башни и их задача добраться и уничтожить красную.
+                Играя же за красную башню вы должны ставить турели и защищаться
+              </p>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/images/4.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+              <br>
+              <img
+                src="./assets/images/5.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Rocket</h3>
+              <p class="projects__row-content-desc">
+                Rocket. Эта игра мне нравится больше всего. Она проста в механике, но интересна и проработана.
+                Ваша задача уклониться от препятствий и долететь до синей платформы.
+                Берегитесь красных обьектов - они могут вас уничтожить!
+              </p>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                  src="./assets/images/7.png"
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Лови монетки!</h3>
+              <p class="projects__row-content-desc">
+                Проработанная игра с подключенной рекламой от unity.
+                Наклоняет доску, на которую падают монетки, в зависимости от наклона телефона.
+                Есть скины, система монет, три режима: Ease, Normal, Hard.
+              </p>
+            </div>
+          </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                  src="./assets/images/9.png"
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Tanks</h3>
+              <p class="projects__row-content-desc">
+                Моя первая игра - танки.
+                Есть система прокачки, покупки танков, искуственный интелект у противников и разные локации
+              </p>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                  src="./assets/images/10.png"
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Online-shooter</h3>
+              <p class="projects__row-content-desc">
+                Онлайн шутер на фреймворке PlayerIO.
+                Можно подключиться к одному Wi-Fi и бороться друг с другом на одной карте.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
